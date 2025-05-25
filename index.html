@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Ticket Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Movie Ticket Reservation</h1>
+
+  <div id="movie-selection">
+    <label for="movie">Choose a movie:</label>
+    <select id="movie">
+      <option value="Inception">Inception</option>
+      <option value="Avengers">Avengers: Endgame</option>
+      <option value="Interstellar">Interstellar</option>
+    </select>
+
+    <label for="showtime">Select a showtime:</label>
+    <select id="showtime">
+      <option value="12:00 PM">12:00 PM</option>
+      <option value="3:00 PM">3:00 PM</option>
+      <option value="6:00 PM">6:00 PM</option>
+    </select>
+  </div>
+
+  <div id="seat-selection">
+    <h2>Select Your Seats</h2>
+    <div class="seats" id="seats"></div>
+  </div>
+
+  <button id="confirm">Confirm Booking</button>
+
+  <div id="summary"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
